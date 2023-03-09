@@ -1,0 +1,643 @@
+@@include('base/base-u8views.html', { "page-lang": "uk", "page-title": "Main",
+"page-description": "Statistics views profile github", "style": "u8views.html",
+"header": "base/layout/u8views/header.html" })
+
+<div class="wrapper-u8">
+	@@include('partials/u8views/hero-not-auth.html')
+	<section class="example">
+		<div class="example__badges">
+			<h3 class="example__title">That badge looks like this:</h3>
+			<div class="example__badges-group">
+				<div class="history__badge">
+					<span class="history__badge-title">Views per day</span>
+					<span class="history__badge-count">17</span>
+				</div>
+				<div class="history__badge">
+					<span class="history__badge-title">per week</span>
+					<span class="history__badge-count">328</span>
+				</div>
+				<div class="history__badge">
+					<span class="history__badge-title"> per month </span>
+					<span class="history__badge-count">986</span>
+				</div>
+				<div class="history__badge">
+					<span class="history__badge-title">Total views</span>
+					<span class="history__badge-count">48656</span>
+				</div>
+			</div>
+		</div>
+		<div class="example__statistics">
+			<h3 class="example__title center">
+				and your statistics look like this:
+			</h3>
+			<div class="example__chart-group">
+				<img src="@@images_u8views__views-statistics.png" alt="views-statistics" />
+				<img src="@@images_u8views__referral-statistics.png" alt="referral-statistics" />
+			</div>
+		</div>
+	</section>
+
+	@@include('partials/u8views/instruction.html')
+    
+	<section class="history">
+		<h2 class="history__title">Registration history</h2>
+		<p class="history__subtitle">
+			Recent registered users who posted a badge on their GitHub profile
+			and have one or more views
+		</p>
+		<div class="history__main">
+			<div class="history__main-values">
+				<span>User:</span>
+				<span>Badge:</span>
+				<span>Time, data:</span>
+			</div>
+			<ul class="history__list">
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+				<li class="history__card">
+					<div class="history__user">
+						<img
+							src="@@images_u8views__profile-picture.svg"
+							alt=""
+							class="history__user-picture"
+						/>
+						<div class="history__user-info">
+							<div class="history__user-name">
+								Yaroslav Podorvanov
+							</div>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__u8-icon.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+							<a href="#" class="history__link">
+								<img
+									src="@@images_u8views__github.svg"
+									width="16"
+									height="16"
+									alt="link"
+								/>
+								<span class="history__user-github"
+									>github.com/YaroslavPodorvanov</span
+								>
+							</a>
+						</div>
+					</div>
+					<div class="history__badges">
+						<div class="history__badge">
+							<span class="history__badge-title"
+								>Views per day</span
+							>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per week</span>
+							<span class="history__badge-count">17</span>
+						</div>
+						<div class="history__badge">
+							<span class="history__badge-title">per month</span>
+							<span class="history__badge-count">17</span>
+						</div>
+					</div>
+					<div class="history__user-time">20:02, January 17</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div>
+
+@@include('base/layout/u8views/footer.html', { "script": "u8views.html" })

@@ -1,0 +1,47 @@
+.example {
+	margin-bottom: 104px;
+
+	&__title {
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 120%;
+		margin-bottom: 32px;
+		color: #13161b;
+
+	}
+
+	&__badges-group {
+		font-size: 32px;
+		display: flex;
+		gap: 5px;
+		width: 100%;
+		margin-bottom: 33px;
+	}
+
+	.history__badge {
+		border-radius: 8px;
+		overflow: hidden;
+	}
+
+	.history__badge-title {
+		padding: 4px 13px 6px 18px;
+		border-radius: 9px 0px 0px 9px;
+
+		margin-right: 1px;
+	}
+
+	.history__badge-count {
+		padding: 4px 13px 6px 18px;
+		border-radius: 0px 9px 9px 0px;
+	}
+
+	&__title.center {
+		margin-left: 312px;
+	}
+    
+	&__chart-group {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 32px;
+	}
+}

@@ -1,0 +1,37 @@
+@@include('base/base-u8views.html', { "page-lang": "uk",
+"page-title":"Registration statistics",
+"page-description": "Statistics views profile github", "style": "u8views.html",
+"header":
+"base/layout/u8views/header-auth.html" })
+
+<div class="wrapper-u8">
+	<div class="hero__donate-block">
+		<figure class="hero__figure-donate">
+			<img src="@@images_u8views__come-back-alive-ukraine.png"
+				alt="come back alive" />
+			<figcaption class="hero__figcaption">
+				«Come Back Alive» is Ukraine's largest charitable organization.
+				The Foundation implements projects that save our defenders'
+				lives and help them liberate the Ukrainian land from invaders.
+			</figcaption>
+		</figure>
+		<button class="hero__donate-button">
+			<a href="#" class="hero__donate-link">Donate</a>
+		</button>
+	</div>
+	<section class="stat-reg">
+		<h2 class="stat-reg__title">Registration statistics</h2>
+		<div class="profile__statistics">
+			<div class="profile__header">
+				<h3 class="profile__title">
+					Your GitHub profile view statistics
+				</h3>
+			</div>
+			<div class="profile__chart">
+				<div class="profile__chart js-chart-views-statistic"></div>
+			</div>
+		</div>
+	</section>
+</div>
+
+@@include('base/layout/u8views/footer.html', { "script": "u8views.html" })

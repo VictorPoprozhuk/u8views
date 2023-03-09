@@ -1,0 +1,141 @@
+.step-2 {
+	&__item-group {
+		display: flex;
+		gap: 10px;
+		margin-bottom: 16px;
+		font-size: 14px;
+	}
+
+	&__select-block {
+		display: flex;
+		align-items: center;
+		padding: 9.5px 16px;
+		background: #f6f8fa;
+		border: 0.5px solid #d9dbdd;
+		border-radius: 4px;
+		gap: 6px;
+	}
+	&__select {
+		cursor: pointer;
+		&:active,
+		&:focus {
+			border: none;
+			outline: none;
+		}
+	}
+
+	&__profile-photo {
+		width: 26px;
+		height: 26px;
+		border-radius: 50%;
+	}
+
+	&__input-block {
+		padding: 9.5px 16.5px;
+		background: #f6f8fa;
+		border: 0.5px solid #d9dbdd;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__input {
+		border: none;
+		background: inherit;
+
+		&:active,
+		&:focus {
+			border: none;
+			outline: none;
+		}
+	}
+
+	&__label {
+		display: inline-block;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 140%;
+		margin-bottom: 8px;
+	}
+
+	&__slash {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 120%;
+		margin-top: auto;
+		margin-bottom: 10px;
+	}
+
+	&__label-star {
+		color: red;
+		font-size: 10px;
+	}
+
+	&__readme {
+		display: flex;
+		gap: 16px;
+		background: #dff4ff;
+		border: 0.5px solid #c7d8e2;
+		border-radius: 8px;
+		padding: 24px 16px;
+		margin-bottom: 16px;
+	}
+
+	&__readme-img {
+		width: 42px;
+		height: 35px;
+	}
+	&__readme-text {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 160%;
+		color: #363343;
+	}
+	&__readme-strong {
+		font-weight: 600;
+	}
+
+	&__readme-italic {
+		font-style: italic;
+	}
+
+	&__readme-file {
+		padding: 16px 0;
+		border-top: 0.5px solid #d8dee4;
+		border-bottom: 0.5px solid #d8dee4;
+		margin-bottom: 16px;
+	}
+
+	&__checkbox {
+		width: 16px;
+		height: 16px;
+		background: #0075ff;
+		border-radius: 4px;
+		margin-right: 8px;
+	}
+
+	&__readme-file-text {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 160%;
+	}
+
+	&__create-repo {
+		padding: 7px 16px 7px;
+		background: #2da44e;
+		border: 1px solid #2a9047;
+		border-radius: 6px;
+		transition: border-color 0.2s, background 0.2s;
+
+		&:hover {
+			border-color: #1b1f2426;
+			background: #2c974b;
+		}
+	}
+	&__create-repo {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 140%;
+		color: #fff;
+	}
+}

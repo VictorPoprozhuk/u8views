@@ -1,0 +1,44 @@
+
+<header class="header ">
+	<div class="header__wrapper auth wrapper-u8">
+		<a href="/design" class="header__logo">
+			<img class="header__logo-img" src="@@images_u8views__logo.svg" alt="logo"></a>
+		<div class="header__stars">
+			<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large"
+				frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+		</div>
+		<div class="header__profile">
+			<button class="header__profile-button">
+				<img src="@@images_u8views__photo-profile.png" alt="photo-profile">
+			</button>
+			<div class="header__modal modal">
+				<div class="modal__profile">
+					<img src="@@images_u8views__photo-profile.png" class="modal__user-photo" width="48" height="48" alt="photo-profile">
+					<div class="modal__profile-info">
+						<div class="modal__profile-name">Yaroslav Podorvanov</div>
+						<a href="#" class="modal__link">
+							<img src="@@images_u8views__u8-icon.svg" width="24" height="24" alt="link">
+							<span class="modal__profile-u8views">u8views.com/github/YaroslavPodorvanov</span>
+						</a>
+						<a href="#" class="modal__link">
+							<img src="@@images_u8views__github.svg" width="24" height="24" alt="link">
+							<span class="modal__profile-github">github.com/YaroslavPodorvanov</span>
+						</a>
+					</div>
+				</div>
+				<div class="modal__log-out">
+					<a href="/logout" class="modal__button">
+						<img src="@@images_u8views__log-out.svg" alt="log-out">
+						<span>Log out</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<script>
+	document.querySelector('.header__profile-button').addEventListener('click', () => {
+		document.querySelector('.header__modal').classList.toggle('active')
+	})
+</script>

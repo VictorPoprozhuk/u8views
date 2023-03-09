@@ -1,0 +1,35 @@
+.action {
+	$_this: &;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	background: #13161b;
+	border-radius: 16px;
+	padding: 32px 32px 40px;
+	margin-bottom: 104px;
+	&__title {
+		font-weight: 500;
+		font-size: 44px;
+		line-height: 120%;
+		color: #fff;
+		margin-bottom: 16px;
+	}
+
+	&__subtitle {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 140%;
+		color: #c6cad2;
+	}
+
+	&.white {
+		background: #fff;
+		#{$_this}__title {
+			color: #13161b;
+		}
+		#{$_this}__subtitle {
+			color: #575d65;
+		}
+	}
+}

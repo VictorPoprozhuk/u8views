@@ -1,0 +1,98 @@
+.footer {
+	background: #020111;
+
+	&__wrapper {
+		padding: 104px 0 24px;
+	}
+
+	&__group-u8 {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__info {
+		color: #fff;
+	}
+
+	&__title {
+		display: block;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 120%;
+		margin-bottom: 16px;
+		color: #fff;
+	}
+	&__subtitle {
+		line-height: 140%;
+		margin-bottom: 55px;
+		width: 275px;
+		color: #c6cad2;
+	}
+	&__map {
+		margin-bottom: 56px;
+	}
+	&__copyrights {
+		display: flex;
+		gap: 14px;
+		color: #cfd2d7;
+		font-size: 14px;
+		border-top: 1px solid #262a30;
+		padding-top: 16px;
+	}
+
+	&__middle-section {
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+		font-size: 18px;
+		width: 300px;
+	}
+
+	&__statistics-link {
+		margin-bottom: 24px;
+		color: #c6cad2;
+		transition: color 0.3s;
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	&__github-link {
+		color: #c6cad2;
+		margin-bottom: 32px;
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		transition: color 0.3s;
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	&__support {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		background: transparent;
+	}
+	&__link {
+		padding: 16px 32px 16px 40px;
+		border: 1px solid #636077;
+		border-radius: 4px;
+		color: #fff;
+		transition: border 0.2s;
+		width: 100%;
+	}
+	&__link:hover {
+		border: 1px solid #ffffff;
+	}
+	&__link:active {
+		border: 1px solid #ffffff;
+		background: #060423;
+	}
+
+	&__figure {
+		display: flex;
+		gap: 16px;
+	}
+}

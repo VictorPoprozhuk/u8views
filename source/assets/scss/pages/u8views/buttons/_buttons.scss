@@ -1,0 +1,71 @@
+.log-in {
+	&__header,
+	&__hero,
+	&__profile,
+	&__step-hero {
+		border: 1px solid #e4eaf1;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		gap: 13px;
+		background: white;
+		transition: background 0.3s;
+		color: #13161b;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 140%;
+		width: fit-content;
+		&:hover {
+			background: #f3f5f8;
+		}
+	}
+
+	&__header, &__hero {
+		padding: 12px 40px;
+		&.step-button {
+			padding: 6px 20px;
+			font-weight: 18px;
+			font-size: 9px;
+			border-radius: 4px;
+			.log-in__img {
+				width: 12px;
+				height: 12px;
+			}
+		}
+	}
+
+	&__hero {
+		padding: 16.5px 56px;
+		&.step-button{
+			padding: 8px 28px;
+			font-weight: 18px;
+			font-size: 9px;
+			border-radius: 4px;
+		}
+	}
+
+	&__instruction-black,
+	&__statistic {
+		border: 1px solid #e4eaf1;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		gap: 13px;
+		background: #13161b;
+		transition: background 0.3s;
+		color: #fff;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 140%;
+		&:hover {
+			background: #242b33;
+		}
+	}
+	&__instruction-black {
+		padding: 16.5px 48px;
+	}
+
+	&__statistic {
+		padding: 16.5px 56px;
+	}
+}

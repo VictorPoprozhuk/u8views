@@ -1,0 +1,43 @@
+.badge {
+	margin-bottom: 104px;
+	&__title {
+		font-weight: 500;
+		font-size: 44px;
+		line-height: 120%;
+		margin-bottom: 8px;
+	}
+
+	&__subtitle {
+		line-height: 140%;
+		color: #7c7b88;
+		margin-bottom: 40px;
+	}
+
+	&__copy {
+		position: relative;
+		margin-left: auto;
+		overflow: hidden;
+	}
+
+	.step__view {
+		width: 100%;
+	}
+
+	.step-3__item {
+		max-width: 100%;
+	}
+
+	.step-3__item-text {
+		width: 465px;
+	}
+
+	.step-3__item-content {
+		padding: 32px;
+		background: #ffffff;
+		border-radius: 16px;
+		min-height: 189px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 140%;
+	}
+}

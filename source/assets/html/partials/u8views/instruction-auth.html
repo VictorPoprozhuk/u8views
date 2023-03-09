@@ -1,0 +1,34 @@
+<section class="instruction js-instruction">
+	<div class="instruction__header">
+		<div class="instruction__step">
+			<img
+				src="@@images_u8views__arrow-right.svg"
+				width="24"
+				height="24"
+				alt="arrow"
+			/>
+			INSTRUCTION
+		</div>
+		<div class="instruction__header-group">
+			<div class="instruction__title">
+				Follow these steps to get started:
+			</div>
+			<button class="instruction__show-button js-instruction-toggle-button">
+				<img
+					src="@@images_u8views__arrow-down.svg"
+					width="15"
+					height="10"
+					alt="arrow"
+					class="instruction__show-img"
+				/>
+			</button>
+		</div>
+	</div>
+	<div class="instruction__steps">
+		@@include('partials/u8views/instruction/step-1.html')
+		@@include('partials/u8views/instruction/step-2.html')
+		@@include('partials/u8views/instruction/step-3-auth.html')
+		@@include('partials/u8views/instruction/step-4.html')
+		@@include('partials/u8views/instruction/step-5.html')
+	</div>
+</section>

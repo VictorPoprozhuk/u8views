@@ -1,0 +1,224 @@
+.step-4 {
+	padding: 32px 0px;
+
+	&__nav {
+		width: 100%;
+		border-bottom: 1px solid #d8dee4;
+		padding-left: 235px;
+		margin-bottom: 15px;
+	}
+
+	&__nav-list {
+		display: flex;
+		gap: 5px;
+	}
+	&__nav-link {
+		display: flex;
+		align-items: center;
+		gap: 5.5px;
+		padding: 0 6px;
+		font-size: 8.58333px;
+		line-height: 18px;
+		padding-bottom: 5.5px;
+		color: #24292f;
+	}
+	&__nav-item:first-child {
+		border-bottom: 1.4px solid #fd8c73;
+	}
+
+	&__profile {
+		display: flex;
+		padding: 0px 25px 32px 29px;
+		gap: 15px;
+	}
+
+	&__left-section {
+		margin-top: -40px;
+	}
+
+	&__profile-photo {
+		margin-bottom: 8px;
+	}
+
+	&__photo {
+		width: 181px;
+		height: 181px;
+		border-radius: 50%;
+	}
+
+	&__profile-name {
+		padding-left: 5px;
+		font-weight: 300;
+		font-size: 12.2619px;
+		line-height: 15px;
+		color: #57606a;
+		margin-bottom: 9px;
+	}
+
+	&__edit-profile-link {
+		color: #24292f;
+		padding: 5px 16px;
+		font-size: 8px;
+		line-height: 12px;
+		border: 0.61px solid rgba(27, 31, 36, 0.15);
+		box-shadow: 0px 0.6px 0px rgba(27, 31, 36, 0.04),
+			inset 0px 0.6px 0px rgba(255, 255, 255, 0.25);
+		border-radius: 3.6px;
+		background: #f6f8fa;
+		display: block;
+		width: 100%;
+		text-align: center;
+		width: 100%;
+
+		&:hover {
+			background: #f3f4f6;
+			border-color: #26282b26;
+			transition: 0.3s;
+			transition-property: background, border-color;
+		}
+	}
+
+	&__right-section {
+		width: 100%;
+	}
+
+	&__readme-file {
+		position: relative;
+		padding: 15px 16px 15px 18px;
+		border: 0.613095px solid #d0d7de;
+		border-radius: 3.67857px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	&__readme-user {
+		font-weight: 400;
+		font-size: 7.3px;
+		line-height: 11px;
+		margin-bottom: 8px;
+	}
+
+	&__readme-code {
+		font-weight: 600;
+		font-size: 10.7px;
+		line-height: 13px;
+	}
+
+	&__edit {
+		position: absolute;
+		top: 15px;
+		right: 14px;
+	}
+
+	&__popular-repo {
+		max-width: 245px;
+	}
+
+	&__popular-title {
+		font-weight: 400;
+		font-size: 9.80952px;
+		line-height: 15px;
+		margin-bottom: 5px;
+	}
+
+	&__popular-item {
+		padding: 10px 12px 25px;
+		border: 0.613095px solid #d0d7de;
+		border-radius: 3.67857px;
+	}
+
+	&__popular-item {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__repo-link {
+		font-weight: 600;
+		font-size: 8.5px;
+		line-height: 13px;
+		color: #0969da;
+	}
+
+	&__repo-settings {
+		font-size: 7.35px;
+		padding: 0.6px 6px 0.6px 6px;
+		display: flex;
+		align-items: center;
+		color: #57606a;
+		border: 0.61px solid #d0d7de;
+		border-radius: 14.7px;
+	}
+
+	&__readme-description {
+		font-size: 9.8px;
+		line-height: 15px;
+		padding: 9px 14px;
+		background: #dafbe1;
+		border: 0.6125px solid #a0e5b2;
+		border-radius: 4.9px;
+		margin-bottom: 10px;
+	}
+
+	&__file-user-name {
+		font-weight: 500;
+	}
+
+	&__file {
+		border-radius: 3.675px;
+		border: 0.6125px solid #d0d7de;
+		overflow: hidden;
+	}
+
+	&__file-buttons {
+		display: flex;
+		background: #f6f8fa;
+		border-bottom: 0.61px solid #d0d7de;
+	}
+
+	&__file-edit {
+		font-size: 9.8px;
+		line-height: 15px;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		padding: 5px 10px;
+		border-width: 0px 0.6125px 0px 0px;
+		border-style: solid;
+		border-color: #d0d7de;
+		border-radius: 3.675px 3.675px 0px 0px;
+		background-color: #fff;
+		margin-bottom: -1px;
+	}
+
+	&__file-preview {
+		font-size: 9.8px;
+		line-height: 15px;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		padding: 5px 10px;
+		background: #f6f8fa;
+		position: relative;
+		z-index: 2;
+	}
+
+	&__code {
+		padding: 14px 10px 35px 10px;
+		font-weight: 500;
+		font-size: 8.575px;
+		line-height: 160%;
+	}
+
+	&__code-list {
+		list-style: auto;
+		color: #6e7781;
+		padding-left: 10px;
+	}
+
+	&__code-item {
+		padding-left: 15px;
+	}
+}
+.step__main-padding {
+	padding: 32px 29px;
+}
