@@ -1,6 +1,6 @@
 @@include('base/base-u8views.html', { "page-lang": "uk", "page-title":
-"Profile", "page-description": "Profile statistics views profile github", "style":
-"u8views.html", "header": "base/layout/u8views/header.html" })
+"Profile", "page-description": "Profile statistics views profile github",
+"style": "u8views.html", "header": "base/layout/u8views/header.html" })
 
 <div class="wrapper-u8">
 	<section class="profile">
@@ -41,11 +41,11 @@
 					<span class="history__badge-count">17</span>
 				</div>
 				<div class="history__badge">
-					<span class="history__badge-title"> Views per week </span>
+					<span class="history__badge-title"> per week </span>
 					<span class="history__badge-count">50</span>
 				</div>
 				<div class="history__badge">
-					<span class="history__badge-title"> Views per month </span>
+					<span class="history__badge-title"> per month </span>
 					<span class="history__badge-count">800</span>
 				</div>
 				<div class="history__badge">
@@ -58,17 +58,12 @@
 	<div class="profile__statistics">
 		<div class="profile__header">
 			<h3 class="profile__title">Your GitHub profile view statistics</h3>
-			<div class="profile__view-count">
-				<span class="profile__circle"></span>View count
-			</div>
-			<div class="profile__select">Last month</div>
 		</div>
 		<div class="profile__chart">
 			<div class="profile__chart js-chart-views-statistic"></div>
 		</div>
 	</div>
 
-	
 	@@include('partials/u8views/referral-statistics.html')
 	@@include('partials/u8views/action-to-log.html')
 	@@include('partials/u8views/instruction.html')
