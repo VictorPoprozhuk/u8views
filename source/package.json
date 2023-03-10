@@ -1,15 +1,12 @@
 {
-	"name": "ready-to-touch",
+	"name": "u8views",
 	"version": "1.0.0",
 	"description": "",
 	"main": "gulpfile.babel.js",
 	"scripts": {
 		"start": "NODE_ENV=start npm i && gulp build",
 		"dev": "NODE_ENV=dev npm rebuild node-sass && gulp",
-		"build": "NODE_ENV=prod npm rebuild node-sass && gulp build",
-		"start-ws": "set NODE_ENV=start npm i && gulp build",
-		"dev-ws": "set NODE_ENV=dev npm rebuild node-sass && gulp",
-		"build-ws": "set NODE_ENV=prod npm rebuild node-sass && gulp build"
+		"build": "NODE_ENV=prod npm rebuild node-sass && gulp build"
 	},
 	"babel": {
 		"presets": [
@@ -24,11 +21,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/WebDevMaster2016/DevSpace"
+		"url": "https://github.com/VictorPoprozhuk/u8views"
 	},
-	"author": "ready-to-touch",
+	"author": "Victor Poprozhuk",
 	"license": "ISC",
-	"homepage": "https://readytotouch.com.ua/",
 	"devDependencies": {
 		"@babel/core": "7.18.2",
 		"@babel/eslint-parser": "7.18.2",

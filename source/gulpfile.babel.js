@@ -109,9 +109,9 @@ task("images", (cb) =>
 );
 
 //create favicon
-task("favicon", (cb) =>
-	favicon(cb, devSource.favicon, publicSource.faviconBuild),
-);
+// task("favicon", (cb) =>
+// 	favicon(cb, devSource.favicon, publicSource.faviconBuild),
+// );
 
 // watch any changes in html, css, js files
 task("watch", () => {
@@ -147,7 +147,7 @@ task(
 		"html",
 		"images",
 		/*'svg-sprite',*/
-		"favicon",
+		// "favicon",
 	),
 );
 
